@@ -1,0 +1,142 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ea09ac5478bbfeb46f886e72b2bc3950",
+    "content-hash": "0271f52bc8a9693ef0db32b382cfcab4",
+    "packages": [
+        {
+            "name": "illuminate/support",
+            "version": "4.2.x-dev",
+            "target-dir": "Illuminate/Support",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/support.git",
+                "reference": "131741133aae79b085951b9382f42b088e479ef9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/131741133aae79b085951b9382f42b088e479ef9",
+                "reference": "131741133aae79b085951b9382f42b088e479ef9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "jeremeamia/superclosure": "~1.0.1",
+                "patchwork/utf8": "~1.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Illuminate\\Support": ""
+                },
+                "files": [
+                    "Illuminate/Support/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "time": "2015-01-27 20:51:43"
+        },
+        {
+            "name": "ricanthonylee/criteria",
+            "version": "dev-master",
+            "target-dir": "Criteria",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RichardAnthonyLee/Criteria.git",
+                "reference": "d7df38e2f60332da66256027fff386d1556a6da5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RichardAnthonyLee/Criteria/zipball/d7df38e2f60332da66256027fff386d1556a6da5",
+                "reference": "d7df38e2f60332da66256027fff386d1556a6da5",
+                "shasum": ""
+            },
+            "require": {
+                "ricanthonylee/itemizer": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Criteria": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Richard Lee",
+                    "email": "richard.lee@quallsbenson.com"
+                }
+            ],
+            "description": "Groups and Organizes Parameters",
+            "time": "2015-09-21 03:23:39"
+        },
+        {
+            "name": "ricanthonylee/itemizer",
+            "version": "dev-master",
+            "target-dir": "RicAnthonyLee/Itemizer",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RichardAnthonyLee/Itemizer.git",
+                "reference": "ef5e30764bc0ffc9adde80b21690109af6abc012"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RichardAnthonyLee/Itemizer/zipball/ef5e30764bc0ffc9adde80b21690109af6abc012",
+                "reference": "ef5e30764bc0ffc9adde80b21690109af6abc012",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~4.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "RicAnthonyLee\\Itemizer\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Richard Lee",
+                    "email": "contact@ricanthonylee.com"
+                }
+            ],
+            "time": "2015-07-24 15:12:32"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "ricanthonylee/criteria": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

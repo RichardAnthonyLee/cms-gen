@@ -1,0 +1,12 @@
+{
+	"minimum-stability":"dev",
+	"require": {
+		"ricanthonylee/criteria": "dev-master"
+	},
+	"autoload": {
+		"psr-0" : {
+			"CmsGen" : ""
+		}
+	},
+	"target-dir": "CmsGen"
+}
