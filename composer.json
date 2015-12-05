@@ -1,4 +1,12 @@
-{
+{    
+	"name": "ricanthonylee/cms-gen",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard Lee",
+            "email": "contact@ricanthonylee.com"
+        }
+    ],
 	"minimum-stability":"dev",
 	"require": {
 		"ricanthonylee/criteria": "dev-master"
